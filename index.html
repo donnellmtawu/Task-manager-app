@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pro To-Do App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+  <h1>Task Manager</h1>
+
+  <div class="input-area">
+    <input type="text" id="taskInput" placeholder="Enter task">
+
+    <select id="category">
+      <option value="Work">💼 Work</option>
+      <option value="Study">📚 Study</option>
+      <option value="Personal">🏠 Personal</option>
+    </select>
+
+    <input type="date" id="dueDate">
+
+    <button onclick="addTask()">Add</button>
+  </div>
+
+  <ul id="taskList"></ul>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
